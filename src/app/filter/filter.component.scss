@@ -1,0 +1,13 @@
+@import 'src/vars';
+.card {
+    margin-top: -(calc($filter-height / 2));
+    .card-header {
+        height: $filter-height;
+    }
+    .card-header-icon {
+        color: $dark-cyan;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
